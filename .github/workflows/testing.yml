@@ -12,4 +12,5 @@ jobs:
 
     steps:
     - name: Echoing
-    run: echo "Hello World"
+    run: |
+    echo "Hello World"
