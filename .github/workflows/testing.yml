@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - name: Echoing
+      run: |
+       echo "Hello World"
     - uses: actions/checkout@main
     - run: |
        date > text.txt
