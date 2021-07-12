@@ -12,5 +12,11 @@ jobs:
 
     steps:
     - name: Echoing
+      uses: actions/checkout@main
       run: |
-       echo "Hello World"
+       date > text.txt
+       git config user.name asdf
+       git config user.email sadsafas@sadasd.com
+       git add .
+       git commit -m "testing"
+       git push
