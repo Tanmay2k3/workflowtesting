@@ -12,8 +12,8 @@ jobs:
 
     steps:
     - name: Echoing
-      uses: actions/checkout@main
-      run: |
+    - uses: actions/checkout@main
+    - run: |
        date > text.txt
        git config user.name asdf
        git config user.email sadsafas@sadasd.com
